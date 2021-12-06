@@ -7,9 +7,7 @@ import {
     HeroContent,
     HeroH1,
     HeroP,
-    HeroBtnWrapper,
-    ArrowForward,
-    ArrowRight
+    HeroBtnWrapper
 } from './HeroElements';
 import {Button} from '../ButtonElements';
 
@@ -26,13 +24,11 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='/video.mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>The modern approach to The Classified Ads</HeroH1>
-                <HeroP>HEADLINE PAGES FOR HEADLINE IDEAS</HeroP>
+                <HeroH1>Web Pages made easy</HeroH1>
+                <HeroP>We help build your online pages and help with your online branding</HeroP>
                 <HeroBtnWrapper>
                     <Button to='contact' onMouseEnter={onHover} onMouseLeave={onHover} primary={true} dark={true}>
-                        PRINT IT{
-                            hover ? <ArrowForward /> : <ArrowRight />
-                        }
+                        Print{ hover }
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

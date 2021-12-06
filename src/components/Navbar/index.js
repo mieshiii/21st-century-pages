@@ -11,7 +11,7 @@ import {
     NavLinks, 
     NavBtn, 
     NavBtnRoute } from './NavBarElements';
-import logo from './21st_century_pages.png';
+import logo from '../../images/21st_century_pages.png';
 
 const Navbar = ({ toggle }) => {
     return (
@@ -19,7 +19,7 @@ const Navbar = ({ toggle }) => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/">
-                        <NavImg src={logo} />
+                        <NavImg src={logo}/>
                         Pages
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
