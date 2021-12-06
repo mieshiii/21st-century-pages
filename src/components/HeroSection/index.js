@@ -25,7 +25,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Web Pages made easy</HeroH1>
-                <HeroP>We help build your online pages and help with your online branding</HeroP>
+                <HeroP>We help build your online pages and design and integrate your online branding</HeroP>
                 <HeroBtnWrapper>
                     <Button to='contact' onMouseEnter={onHover} onMouseLeave={onHover} primary={true} dark={true}>
                         Print{ hover }
